@@ -1,0 +1,34 @@
+/* CSS declarations go here */
+body {
+  background-image: url('/images/background.jpg');
+}
+
+.container {
+  margin: 50px auto !important;
+  min-height: 80vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 45% !important;
+}
+
+.item-bar {
+  display: inline-block;
+  width: 100%;
+  height: 15px;
+}
+
+.item-bar .status {
+  float: left;
+  width: 40px;
+}
+
+.item-bar .title {
+  float: left;
+}
+
+.item-bar .actions {
+  float: right;
+  width: 40px;
+  cursor: pointer;
+}
